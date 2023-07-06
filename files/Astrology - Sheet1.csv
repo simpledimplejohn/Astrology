@@ -1,0 +1,85 @@
+Zodiac : Tropical,,,,
+Planet,Sign,Degree,Orientation,
+Sun,Scorpio,20°05',,
+Moon,Aries,25°46',,
+Mercury,Sagittarius,12°15',,
+Venus,Scorpio,12°11',R,
+Mars,Sagittarius,7°48',,
+Jupiter,Leo,8°47',,
+Saturn,Virgo,12°22',,
+Uranus,Scorpio,16°56',,
+Neptune,Sagittarius,17°02',,
+Pluto,Libra,17°54',,
+Lilith,Leo,3°21',,
+N Node,Virgo,25°12',,
+,,,,
+Placidus,,,,
+I ASC,Capricorn,23°33',,
+II,Pisces,13°02',,
+III,Aries,23°53',,
+IV,Taurus,21°21',,
+V,Gemini,12°12',,
+VI,Cancer,1°20',,
+VII,Cancer,23°33',,
+VIII,Virgo,13°02',,
+IX,Libra,23°53',,
+X MC,Scorpio,21°21',,
+XI,Sagittarius,12°12',,
+XII,Capricorn,1°20',,
+,,,,
+Sun,IX,,,
+Moon,III,,,
+Mercury,XI,,,
+Venus,IX,,,
+Mars,X MC,,,
+Jupiter,VII,,,
+Saturn,VII,,,
+Uranus,IX,,,
+Neptune,XI,,,
+Pluto,VIII,,,
+Lilith,VII,,,
+N Node,VIII,,,
+,,,,
+masculine,6,,,
+feminine,4,,,
+cardinal,2,,,
+fixed,4,,,
+mutable,4,,,
+,,,,
+fire,5,,,
+earth,1,,,
+air,1,,,
+water,3,,,
+,,,,
+,,,,
+Planet,Aspect,Planet,Orb,Value
+Sun,Conjunction,Venus,7°54',100
+Sun,Conjunction,Uranus,3°09',356
+Sun,Sextile,I ASC,3°27',62
+Sun,Conjunction,X MC,1°16',350
+Moon,Opposition,Pluto,7°52',-25
+Moon,Square,I ASC,2°13',-57
+Mercury,Conjunction,Mars,4°27',218
+Mercury,Trine,Jupiter,3°28',52
+Mercury,Square,Saturn,0°07',-82
+Mercury,Conjunction,Neptune,4°47',146
+Venus,Square,Jupiter,3°24',-36
+Venus,Sextile,Saturn,0°11',149
+Venus,Conjunction,Uranus,4°45',147
+Venus,Conjunction,X MC,9°10',16
+Mars,Trine,Jupiter,0°59',96
+Mars,Square,Saturn,4°34',-24
+Mars,Conjunction,Neptune,9°14',25
+Mars,Trine,Lilith,4°27',27
+Jupiter,Conjunction,Lilith,5°26',91
+Saturn,Sextile,Uranus,4°34',12
+Saturn,Square,Neptune,4°40',-13
+Uranus,Conjunction,X MC,4°25',67
+Neptune,Sextile,Pluto,0°52',50
+Pluto,Square,I ASC,5°39',-1
+,,1964,-238,1726
+,,,,
+,,,,
+,,,,
+Fortune,Gemini,29°13',,
+South node,Pisces,25°12',,

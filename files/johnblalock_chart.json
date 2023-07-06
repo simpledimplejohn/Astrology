@@ -1,0 +1,60 @@
+{
+    "Zodiac": "Tropical",
+    "PlanetSignDegreeOrientation": [
+      ["Planet", "Sign", "Degree", "Orientation"],
+      ["Sun", "Scorpio", "20°05'", ""],
+      ["Moon", "Aries", "25°46'", ""],
+      ["Mercury", "Sagittarius", "12°15'", ""],
+      ["Venus", "Scorpio", "12°11'", "R"],
+      ["Mars", "Sagittarius", "7°48'", ""],
+      ["Jupiter", "Leo", "8°47'", ""],
+      ["Saturn", "Virgo", "12°22'", ""],
+      ["Uranus", "Scorpio", "16°56'", ""],
+      ["Neptune", "Sagittarius", "17°02'", ""],
+      ["Pluto", "Libra", "17°54'", ""],
+      ["Lilith", "Leo", "3°21'", ""],
+      ["N Node", "Virgo", "25°12'", ""]
+    ],
+    "Placidus": "",
+    "IASC": ["I ASC", "Capricorn", "23°33'", ""],
+    "II": ["II", "Pisces", "13°02'", ""],
+    "III": ["III", "Aries", "23°53'", ""],
+    "IV": ["IV", "Taurus", "21°21'", ""],
+    "V": ["V", "Gemini", "12°12'", ""],
+    "VI": ["VI", "Cancer", "1°20'", ""],
+    "VII": ["VII", "Cancer", "23°33'", ""],
+    "VIII": ["VIII", "Virgo", "13°02'", ""],
+    "IX": ["IX", "Libra", "23°53'", ""],
+    "XMC": ["X MC", "Scorpio", "21°21'", ""],
+    "XI": ["XI", "Sagittarius", "12°12'", ""],
+    "XII": ["XII", "Capricorn", "1°20'", ""],
+    "SunAspects": [
+      ["Sun", "IX", "", ""],
+      ["Moon", "III", "", ""],
+      ["Mercury", "XI", "", ""],
+      ["Venus", "IX", "", ""],
+      ["Mars", "X MC", "", ""],
+      ["Jupiter", "VII", "", ""],
+      ["Saturn", "VII", "", ""],
+      ["Uranus", "IX", "", ""],
+      ["Neptune", "XI", "", ""],
+      ["Pluto", "VIII", "", ""],
+      ["Lilith", "VII", "", ""],
+      ["N Node", "VIII", "", ""]
+    ],
+    "AdditionalData": [
+      ["masculine", "6", "", ""],
+      ["feminine", "4", "", ""],
+      ["cardinal", "2", "", ""],
+      ["fixed", "4", "", ""],
+      ["mutable", "4", "", ""],
+      ["fire", "5", "", ""],
+      ["earth", "1", "", ""],
+      ["air", "1", "", ""],
+      ["water", "3", "", ""]
+    ],
+    "PlanetaryAspects": [
+      ["Planet", "Aspect", "Planet", "Orb", "Value"],
+      ["Sun", "Conjunction"]
+    ]
+}
