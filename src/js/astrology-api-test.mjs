@@ -1,4 +1,9 @@
-const axios = require('axios');
+import fetch from 'node-fetch';
+
+
+
+
+
 
 const apiUrl = 'https://json.freeastrologyapi.com/planets';
 const apiKey = 'aUDMJHvbSIVusNoJ6uDzamHSz0CmwHV6tAX6T2S8';
@@ -19,16 +24,19 @@ const requestData = {
   }
 };
 
-axios.post(apiUrl, requestData, {
+fetch(apiUrl, {
+  method: 'POST',
   headers: {
-    Accept: 'application/json, text/plain, */*',
+    Accept: 'application/json',
     'Content-Type': 'application/json',
-    Authorization: `Bearer ${apiKey}`,
-    'User-Agent': 'axios/0.21.4'
-  }
+    Authorization: ` ${apiKey}`,
+    'User-Agent': 'node-fetch/2.6'
+  },
+  body: JSON.stringify(requestData)
 })
-  .then(response => {
-    console.log(response.data);
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
   })
   .catch(error => {
     console.error(error);
