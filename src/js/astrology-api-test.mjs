@@ -1,15 +1,11 @@
 import fetch from 'node-fetch';
 
 
-
-
-
-
 const apiUrl = 'https://json.freeastrologyapi.com/planets';
 const apiKey = 'aUDMJHvbSIVusNoJ6uDzamHSz0CmwHV6tAX6T2S8';
 
 const requestData = {
-  year: 1978,
+  year: 1978, 
   month: 12,
   date: 11,
   hours: 20,
@@ -25,9 +21,12 @@ const requestData = {
 };
 
 fetch(apiUrl, {
+  credentials: 'include',
   method: 'POST',
   headers: {
     Accept: 'application/json',
+    'ACCESS-CONTROL-ALLOW-ORIGIN': "'https://json.freeastrologyapi.com",
+    // 'Access-Control-Allow-Methods': "GET, POST, PUT, DELETE, OPTIONS",
     'Content-Type': 'application/json',
     Authorization: ` ${apiKey}`,
     'User-Agent': 'node-fetch/2.6'
