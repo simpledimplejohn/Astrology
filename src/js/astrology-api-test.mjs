@@ -1,3 +1,4 @@
+// this code sends to the astorology api
 import fetch from 'node-fetch';
 
 
