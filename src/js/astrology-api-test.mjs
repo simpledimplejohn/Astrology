@@ -25,11 +25,11 @@ fetch(apiUrl, {
   method: 'POST',
   headers: {
     Accept: 'application/json',
-    'ACCESS-CONTROL-ALLOW-ORIGIN': "'https://json.freeastrologyapi.com",
+    // 'ACCESS-CONTROL-ALLOW-ORIGIN': "'https://json.freeastrologyapi.com",
     // 'Access-Control-Allow-Methods': "GET, POST, PUT, DELETE, OPTIONS",
     'Content-Type': 'application/json',
-    Authorization: ` ${apiKey}`,
-    'User-Agent': 'node-fetch/2.6'
+    'X-API-KEY': `${apiKey}`,
+    // 'User-Agent': 'node-fetch/2.6'
   },
   body: JSON.stringify(requestData)
 })
