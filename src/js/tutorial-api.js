@@ -7,6 +7,7 @@ fetch('https://reqres.in/api/users/1')
 */    
 
 // same thing as above but with error catching 
+/*
 fetch('https://reqres.in/api/users/1')
     .then(res => {
         if (res.ok) {
@@ -18,6 +19,19 @@ fetch('https://reqres.in/api/users/1')
     })
     .then(data => console.log(data))
     .catch(error => console.log('ERROR')) //this error is only for connection issues 
+*/
 
-
-
+fetch('https://reqres.in/api/users/1', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({  //need this to send a json string up
+        name: 'User 1'
+    })
+})
+    .then(res => {
+        return res.json()        
+    })
+    .then(data => console.log(data))
+    .catch(error => console.log('ERROR')) //this error is only for connection issues 
